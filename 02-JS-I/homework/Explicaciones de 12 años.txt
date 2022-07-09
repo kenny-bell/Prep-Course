@@ -1,0 +1,14 @@
+Una variable es un contenedor, que puede contener un dato, y es nombrado, para poder hacer referencia a ese contenedor. 
+	En los lenguajes tipados, esos contenedores sólo pueden contener un dato que pertenezca al conjunto correspondiente al
+	tipo de dato que se indicó al crear la variable, pero en Javascript una variable puede contener cualquier dato.
+
+Una string es una secuencia de caracteres, esos caracteres se obtienen de un alfabeto, que es un conjunto de caracteres, o letras y símbolos.
+
+Una función es un objeto al que se puede invocar, enviándole una cantidad de argumentos arbitraria (puede ser 0) (los argumentos
+son datos), y la misma puede ejecutar alguna acción, devolver un resultado, o ambas.
+
+Un statement if es una herramienta de control de flujo del programa, que permite que el flujo de ejecución vaya por un lado o
+por otro, de acuerdo a cierta condición que se evalúa en el if.
+
+Un valor booleano es un dato de tipo booleano, conjunto que tiene 2 elementos, true y false. Pueden usarse para representar cualquier
+cosa, pero normalmente true se usa para representar algo que es verdad, y false el opuesto.
