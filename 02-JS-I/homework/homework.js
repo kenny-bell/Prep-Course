@@ -120,9 +120,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  i = 1;
-  while(i++ < exponent) num *= num;
-  return num
+  return num ** exponent;
 }
 
 function redondearNumero(num) {
