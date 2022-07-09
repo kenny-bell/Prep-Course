@@ -121,7 +121,7 @@ function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   i = 1;
-  while(++i < exponent) num *= num;
+  while(i++ < exponent) num *= num;
   return num
 }
 
@@ -215,10 +215,9 @@ function esVocal(letra){
     case 'i':
     case 'o':
     case 'u':
-      console.log("Es vocal");
-      break;
+      return "Es vocal";
     default:
-      console.log("Dato incorrecto");
+      return "Dato incorrecto";
   }
 }
 
