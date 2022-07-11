@@ -1,0 +1,1 @@
+Un arreglo es una colección de elementos cualquiera, ordenados aleatoriamente, ésto quiere decir, se pueden ingresar en cualquier lugar del arreglo y aparte se pueden quitar de cualquier parte del mismo. También se puede ver qué elemento hay en una posición dada.
