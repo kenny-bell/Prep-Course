@@ -34,7 +34,8 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  return array.push(elemento);
+  array.push(elemento)
+  return array;
 }
 
 
@@ -43,7 +44,8 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  return array.unshift(elemento);
+  array.unshift(elemento)
+  return array;
 }
 
 
@@ -57,9 +59,12 @@ function dePalabrasAFrase(palabras) {
   //El comportamiento esperado, yo creo, en el caso de recibir un arreglo vacío, es lanzar una excepción
   //en ésta implementación, devuelve undefined
   cadena = palabras[0];
+  console.log("cadena es", cadena)
   for(i = 1; i<palabras.length; i++) {
     cadena += " " + palabras[i];
+    console.log("cadena es", cadena)
   }
+  return cadena;
 }
 
 
@@ -79,7 +84,7 @@ function agregarNumeros(numeros) {
   // Suma todos los enteros y devuelve el valor
   // Tu código:
   acumulador = 0;
-  for(i = 0; i < array.length; i++) {
+  for(i = 0; i < numeros.length; i++) {
     acumulador += numeros[i];
   }
   return acumulador;
@@ -99,8 +104,8 @@ function numeroMasGrande(numeros) {
   // Devuelve el número más grande
   // Tu código:
   max = numeros[0]
-  for(i = 1; i < array.length; i++) {
-    if(numeros[i] > max) max = numeros[1];
+  for(i = 1; i < numeros.length; i++) {
+    if(numeros[i] > max) max = numeros[i];
   }
   return max;
 }
@@ -147,14 +152,15 @@ function diaDeLaSemana(numeroDeDia) {
   }
 } 
 
-
 function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  while( n !== 9 ||  n !== 0) n = Math.floor(n/10);
-  if(n == 9) return true;
-  else return false; //n === 0
+  while( n !== 9 ) {
+    n = Math.floor(n/10);
+    if(n === 0 || n === -1) return false;
+  }
+  return true;
 }
 
 
