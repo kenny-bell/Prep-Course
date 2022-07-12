@@ -1,0 +1,11 @@
+Un objeto es un contenedor de datos, guardados en forma de clave-valor. Cómo puede tener datos y métodos, entonces un objeto está modelando algo de la vida real, porque define sus atributos y sus comportamientos.
+
+Las propiedades son pares clave:valor que dan las caraterísticas que tiene un objeto, y sus comportamientos a través de los métodos.
+
+Los métodos son las acciones que un objeto puede realizar, sea modificando sus propiedades, o alguna otra de algún otro objeto, o llamando a otros métodos.
+
+El bucle for...in permite iterar a través de todas las propiedades de un objeto, obteniendo en cada iteración, una clave.
+
+Para acceder a las propiedades de un objeto, se puede usar la notación de punto, en dónde se especifica el nombre del objeto, un punto,
+y luego la clave, cómo si fuera una variable. Hay que escribir exactamente qué valor se quiere buscar, ésto es muy estático, por eso aparece la notación de corchetes, que permite expresar una clave en forma de tipo de dato string; así se pueden usar variables para acceder a las propiedades de un objeto.
+
